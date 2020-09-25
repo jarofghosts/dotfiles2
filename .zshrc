@@ -91,8 +91,3 @@ alias c="pbcopy"
 
 unsetopt correct
 unsetopt correct_all
-
-# The next line enables completion for autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
-
