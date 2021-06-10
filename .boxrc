@@ -11,3 +11,5 @@ alias dcl="docker-compose logs"
 alias dcx="dcr airship-ui; dcl -f airship-ui"
 alias dcs="docker-compose stop"
 alias dc="docker-compose"
+
+eval "$(pyenv init -)"
