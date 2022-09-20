@@ -7,7 +7,7 @@ export ZSH=/root/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="flazz"
+ZSH_THEME="crcandy"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +51,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git npm osx brew node gitfast vi-mode history-substring-search docker docker-compose)
+plugins=(git npm brew node gitfast vi-mode history-substring-search docker docker-compose)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.boxrc
@@ -85,9 +85,6 @@ source $HOME/.boxrc
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export EDITOR='vim'
-alias vi="nvim"
-alias p="pbpaste"
-alias c="pbcopy"
 
 unsetopt correct
 unsetopt correct_all
